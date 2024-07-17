@@ -1,4 +1,3 @@
-// import java.util.scanner;
 
 public class Patterns {
     public static void main(String[] args) {
@@ -16,13 +15,13 @@ public class Patterns {
         
          */
         // using for loop
-        for (i = 0; i < n;i++) {
-            for (k = 0 ; k<n;k++) {
+        for (i = 0; i < n; i++) {
+            for (k = 0; k < n; k++) {
                 System.out.print("* ");
             }
-        System.out.println();
+            System.out.println();
         }
-
+        
         // using while loop
         while (i < m) {
             int j = 0;
@@ -46,12 +45,26 @@ public class Patterns {
         int a = 0;
         while (a < o) {
             int l = 0;
-            while (l <= a) {  
+            while (l <= a) {
                 System.out.print("* ");
                 l++;
             }
             a++;
             System.out.println();
         }
+
+        System.out.println("next pattern:");
+        
+        int q = 5;
+        int row = 0;
+        while (row < q) {
+            int col = row;
+            while (col < q) {
+                System.out.print("* ");
+                col++;
+            }
+            System.out.println();
+            row++;
+        } 
     }
 }
