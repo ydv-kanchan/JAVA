@@ -11,7 +11,7 @@
 
  */
 
-public class comment {
+public class Comment {
     public static /*comments can be added anywhere in the code */ void main(String[] args) {
         int a = 5; //but if you write it in specific place where it needed then it will be beneficial
         System.out.print(a);
