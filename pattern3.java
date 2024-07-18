@@ -29,6 +29,28 @@ public class pattern3 {
             i++;
         }
 
+        /*
+        *
+        * *
+        * * *
+        * * * *
+        * * * * *
+        * * * *
+        * * *
+        * *
+        *
+         */
+        int m = scanner.nextInt();
+
+        int row = 0;
+        while (row < m* 2 - 1) {
+            while (row <= m) {
+                int j = 0;
+                System.out.print("* ");
+                star++;
+            }
+        }
+
         scanner.close();
     }
 }
