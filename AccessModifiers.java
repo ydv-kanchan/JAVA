@@ -1,5 +1,15 @@
+import java.util.Scanner;
 public class AccessModifiers {
-    
+    public int publicField = 1;
+    protected int protectedField = 2;
+    int defaultField = 3;
+    private int PrivateField = 4;
+
+    public void publicMethod() {
+        System.out.println("Public Method");
+        //accessing all fields from same class
+        
+    }
 }
 
 
@@ -18,5 +28,5 @@ default(no modifier):
 private: 
       classes can not be declared as private
       memebers declared as 'private' are accessible only wihtin the same class
-      
+
  */
