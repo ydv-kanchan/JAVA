@@ -11,17 +11,20 @@ public class Patterns2 {
      */
     public static void main(String[] a) {
         int n = 5;
-        int i;
-        for ( i = 0; i < n; i++) {
-            int space;
-            for (space = 0; space < n - i -1; space++) {
+        int i=0;
+        while(i < n) {
+            int space=0;
+            while (space < n - i -1) {
                 System.out.print(" ");
+                space++;
             }
-            int star;
-            for (star = n; star > n - i - 1; star--) {
+            int star=n;
+            while (star > n - i - 1) {
                 System.out.print("*");
+                star--;
             }
             System.out.println();
+            i++;
         }
     }
 }
