@@ -42,14 +42,29 @@ public class pattern3 {
          */
         int m = scanner.nextInt();
 
-        int row = 0;
-        while (row < m* 2 - 1) {
-            while (row <= m) {
-                int j = 0;
+        int rn=2*m-1;
+        int star=1;
+        int k=1;
+        while(k<=rn)
+        {
+            int j=1;
+            while(j<=star)
+            {
                 System.out.print("* ");
+                j++;
+            }
+            if(k<n)
+            {
                 star++;
             }
-        }
+            else
+            {
+                star--;
+            }
+            k++;
+            System.out.println();
+       }
+
 
         scanner.close();
     }
