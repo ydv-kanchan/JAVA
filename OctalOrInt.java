@@ -11,9 +11,21 @@ public class OctalOrInt {
 
         // byte j = 140; //error can not convert int to byte, so need to do explicit type casting
         byte j = (byte) 140; // will give -116
-        byte k = (byte) 300; 
+        byte k = (byte) 300; //it will be a 9 digit number in binary so we will remove the most left bit and then it will be a positive number when converted to byte
+        // byte a = (byte) 
         System.out.println(i);
         System.out.println(j);
         System.out.println(k);
+
+        for (byte m = 0; m <127; m++) {
+            System.out.println(m);
+        }
+        System.out.println(args.length);
+
+        long l = 8768697988l; // error because without l in end it will be considered as a integer
+        System.out.println(l);
+
+        // long n = (long)(436879799877);
+        System.out.println(n);
     }
 }
