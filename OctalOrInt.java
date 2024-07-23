@@ -26,6 +26,6 @@ public class OctalOrInt {
         System.out.println(l);
 
         // long n = (long)(436879799877);
-        System.out.println(n);
+        // System.out.println(n);
     }
 }
